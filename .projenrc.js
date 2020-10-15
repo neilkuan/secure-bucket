@@ -3,7 +3,7 @@ const { AwsCdkConstructLibrary } = require('projen');
 const project = new AwsCdkConstructLibrary({
   authorAddress: "guan840912@gmail.com",
   authorName: "Neil Kuan",
-  cdkVersion: "1.66.0",
+  cdkVersion: "1.67.0",
   name: "secure-bucket",
   repository: "https://github.com/guan840912/secure-bucket.git",
   cdkDependencies: [
