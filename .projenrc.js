@@ -10,7 +10,7 @@ const project = new AwsCdkConstructLibrary({
     '@aws-cdk/aws-s3',
     '@aws-cdk/core',
   ],
-  npmRegistry: 'https://npm.pkg.github.com/@guan840912',
+  npmRegistry: 'npm.pkg.github.com/@guan840912',
   releaseBranches: ['main'],
 });
 
