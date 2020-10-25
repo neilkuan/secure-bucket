@@ -4,16 +4,19 @@ const project = new AwsCdkConstructLibrary({
   authorAddress: "guan840912@gmail.com",
   authorName: "Neil Kuan",
   cdkVersion: "1.68.0",
-  name: "secure-bucket",
+  name: "@guan840912/secure-bucket",
+  dependabot: false,
   repository: "https://github.com/guan840912/secure-bucket.git",
   cdkDependencies: [
     '@aws-cdk/aws-s3',
     '@aws-cdk/core',
   ],
-  npmRegistry: 'npm.pkg.github.com/@guan840912',
+  npmRegistry: 'npm.pkg.github.com',
   releaseBranches: ['main'],
   defaultReleaseBranch: 'main',
-  
+  publishConfig: {
+    registry: 'https://npm.pkg.github.com',
+  }
 });
 
 project.addScripts({
