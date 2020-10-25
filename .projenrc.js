@@ -12,8 +12,8 @@ const project = new AwsCdkConstructLibrary({
     '@aws-cdk/core',
   ],
   npmRegistry: 'npm.pkg.github.com',
-  releaseBranches: ['main'],
   defaultReleaseBranch: 'main',
+  releaseBranches: ['main'],
   publishConfig: {
     registry: 'https://npm.pkg.github.com',
   }
