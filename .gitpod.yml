@@ -2,8 +2,7 @@ github:
   prebuilds:
     pullRequestsFromForks: true
     addComment: true
-    
-image: public.ecr.aws/amazonlinux/amazonlinux:latest
+
 tasks:
   - name: run docker
     command: sudo docker-up & 
