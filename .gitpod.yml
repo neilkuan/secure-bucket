@@ -1,0 +1,15 @@
+github:
+  prebuilds:
+    pullRequestsFromForks: true
+    addComment: true
+    
+image: public.ecr.aws/amazonlinux/amazonlinux:latest
+tasks:
+  - name: run docker
+    command: sudo docker-up & 
+  - command: echo "source /usr/share/bash-completion/completions/git" >> $HOME/.bashrc
+
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint@2.1.5:9Wg0Glx/TwD8ElFBg+FKcQ==
