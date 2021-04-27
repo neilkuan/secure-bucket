@@ -4,10 +4,10 @@ const project = new AwsCdkConstructLibrary({
   authorAddress: 'guan840912@gmail.com',
   authorName: 'Neil Kuan',
   cdkVersion: '1.88.0',
-  name: '@guan840912/secure-bucket',
+  name: '@neilkuan/secure-bucket',
   dependabot: false,
   jsiiFqn: 'projen.AwsCdkConstructLibrary',
-  repository: 'https://github.com/guan840912/secure-bucket.git',
+  repository: 'https://github.com/neilkuan/secure-bucket.git',
   cdkDependencies: [
     '@aws-cdk/aws-s3',
     '@aws-cdk/core',
